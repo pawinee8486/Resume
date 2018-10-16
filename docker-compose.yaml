@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myapp:
+    image: pawinee/node-express-resume
+    ports:
+      - "8000:8000"
+    command: "npm start"
+
